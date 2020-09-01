@@ -1,6 +1,6 @@
 require 'calculator'
 
-describe Calculator do
+describe Calculator, 'class' do
 
   context "#method - sum" do
     it "with 2 numbers positive" do

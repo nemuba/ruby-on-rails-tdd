@@ -1,0 +1,26 @@
+
+describe "Matchers de Igualdade" do
+  it "#equal - Verifica se objetos são iguais" do
+    x = "ruby"
+    y = "ruby"
+    expect(x).not_to equal(y) 
+  end
+
+  it "#be - Verifica se objetos são iguais" do
+    x = "ruby"
+    y = "ruby"
+    expect(x).not_to be(y) 
+  end
+
+  it "#eql - Verifica se os valores são iguais" do
+    x = "ruby"
+    y = "ruby"
+    expect(x).to eql(y) 
+  end
+
+  it "#eq - Verifica se os valores são iguais" do
+    x = "ruby"
+    y = "ruby"
+    expect(x).to eq(y) 
+  end
+end

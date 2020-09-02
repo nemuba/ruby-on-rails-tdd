@@ -1,11 +1,12 @@
 
 # Conteudo do curso
 
-1 - [Conceitos Iniciais](#item-1)
+1. [Conceitos Iniciais](#item-1)
+2. [Conhecendo RSpec](#item-2)
 
-------------------------------
-
-# [Pra que testar software ?](#)
+-------------------------------------
+<a id="item-1"></a>
+# Pra que testar software ?
 
 1. Garantir a qualidade do software.
 2. Segurança e facilidade de manuntenção.
@@ -40,6 +41,17 @@ Sempre devemos fazer um balanceamento do que é mais importante e que valhe a pe
 
 O importante é testar o sofware , não importa quanto !
 
-# [Pra que testar software ?](#item-1)
+--------------------------------------
+<a id="item-2"></a>
+# Conhecendo RSpec
 
-
+1. Describe
+2. Context
+3. It e Xit
+4. Subject
+5. Mastchers
+   1. Igualdade
+   2. Comparação
+   3. Classes
+   4. Verdadeiro/Falso
+  

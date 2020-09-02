@@ -1,4 +1,11 @@
-# Pra que testar software ?
+
+# Conteudo do curso
+
+1 - [Conceitos Iniciais](#item-1)
+
+------------------------------
+
+# [Pra que testar software ?](#)
 
 1. Garantir a qualidade do software.
 2. Segurança e facilidade de manuntenção.
@@ -33,5 +40,6 @@ Sempre devemos fazer um balanceamento do que é mais importante e que valhe a pe
 
 O importante é testar o sofware , não importa quanto !
 
+# [Pra que testar software ?](#item-1)
 
 

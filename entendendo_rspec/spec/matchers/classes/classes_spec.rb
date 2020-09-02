@@ -18,4 +18,8 @@ describe "Matchers de Classes" do
   it 'be_a' do
     expect(subject).to be_a(StringNaoVazia) 
   end
+
+  it 'respond_to' do
+    expect(subject).to respond_to(:size)
+  end
 end

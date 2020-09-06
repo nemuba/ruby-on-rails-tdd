@@ -54,4 +54,9 @@ O importante é testar o sofware , não importa quanto !
    2. Comparação
    3. Classes
    4. Verdadeiro/Falso
+   5. Predicados
+   6. Erros
+   7. Array
+6. Um pouco mais de Rspec.describe
+
   

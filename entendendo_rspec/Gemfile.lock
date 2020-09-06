@@ -70,5 +70,8 @@ DEPENDENCIES
   rspec (~> 3.6.0)
   solargraph
 
+RUBY VERSION
+   ruby 2.4.10p364
+
 BUNDLED WITH
    2.1.4

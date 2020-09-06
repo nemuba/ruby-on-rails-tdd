@@ -58,6 +58,9 @@ O importante é testar o sofware , não importa quanto !
    6. Erros
    7. Array
    8. Ranges
+   9. All
+   10. be_within
 6. Um pouco mais de Rspec.describe
+7. Composição de Expectativas
 
   

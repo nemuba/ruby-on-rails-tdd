@@ -1,12 +1,21 @@
 require 'pessoa'
 
 describe 'Matchers de Atributos de Classes' do
-  before(:each) do
-    @pessoa = Pessoa.new
-    puts @pessoa.inspect
-  end
+  # before(:each) do
+  #   @pessoa = Pessoa.new
+  #   puts @pessoa.inspect
+  # end
 
-  after(:each) do
+  # after(:each) do
+  #   @pessoa.nome = "Sem Nome"
+  #   puts @pessoa.inspect
+  # end
+
+  around(:each) do |teste|
+    # Antes
+    @pessoa = Pessoa.new
+    teste.run
+    #  Depois
     @pessoa.nome = "Sem Nome"
     puts @pessoa.inspect
   end

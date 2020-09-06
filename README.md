@@ -62,5 +62,7 @@ O importante é testar o sofware , não importa quanto !
    10. be_within
 6. Um pouco mais de Rspec.describe
 7. Composição de Expectativas
+8. Hooks(before, after, around)
+
 
   

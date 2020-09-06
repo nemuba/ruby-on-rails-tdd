@@ -45,7 +45,7 @@ describe Calculator, 'class' do
     end
   
     it "with error divided by 0" do
-      expect(subject.division(2,0)).to eq("Erro: divided by 0")
+      expect{subject.division(2,0)}.to raise_error(ZeroDivisionError,'divided by 0')
     end
   end
   

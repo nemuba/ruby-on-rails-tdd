@@ -16,11 +16,7 @@ class Calculator
 
   # method division
   def division(a,b)
-    begin
-      return a/b
-    rescue ZeroDivisionError => e
-      "Erro: #{e.message}"
-    end
+     a/b
   end
     
   

@@ -6,5 +6,4 @@ module Helper
   def languages
     %w(ruby java python).sample
   end
-  
 end

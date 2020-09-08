@@ -20,6 +20,16 @@ describe "Matchers de Comparação" do
     expect(10).to be_between(1,10).inclusive  
   end
 
+  # it '#be_between - inclusive / Falhas agragadas' do # Config Global
+  #   expect(11).to be_between(1,10).inclusive  
+  #   expect(12).to be_between(1,10).inclusive  
+  # end
+
+  # it '#be_between - inclusive / Falhas agragadas', :aggregate_failures do
+  #   expect(11).to be_between(1,10).inclusive  
+  #   expect(12).to be_between(1,10).inclusive  
+  # end
+
   it '#be_between - exclusive' do
     expect(10).not_to be_between(1,10).exclusive  
   end

@@ -60,9 +60,14 @@ O importante é testar o sofware , não importa quanto !
    8. Ranges
    9. All
    10. be_within
+   11. change
+   12. output
 6. Um pouco mais de Rspec.describe
 7. Composição de Expectativas
 8. Hooks(before, after, around)
+9. Let and Let!
+10. Negativando Matchers
+11. Falhas agregadas
 
 
   

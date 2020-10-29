@@ -1,5 +1,6 @@
+# frozen_string_literal: true
 
-describe "Matchers Verdadeiro/False" do
+describe 'Matchers Verdadeiro/False' do
   it 'be true' do
     expect(1.odd?).to be true
   end

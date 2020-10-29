@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe 'Matchers satisfy' do
   it {
     expect(10).to satisfy('be a multiple of 2') do |x|
@@ -5,5 +7,5 @@ describe 'Matchers satisfy' do
     end
   }
 
-  it { expect(10).to satisfy { |x| x.modulo(2) == 0 } } 
+  it { expect(10).to satisfy { |x| x.modulo(2) == 0 } }
 end

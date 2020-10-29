@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe 'Test Double' do
   it 'double("User")' do
     user = double('User')

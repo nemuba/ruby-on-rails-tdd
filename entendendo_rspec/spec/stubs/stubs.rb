@@ -11,4 +11,35 @@ describe 'Stub' do
 
     expect(finished).to be_truthy
   end
+
+  it "Argumentos Dinâmicos" do
+    student = Student.new
+
+    allow(student).to receive(:foo) do |arg|
+      if arg == :hello
+        'Ola'
+      elsif :hi
+        'Oi'
+      end
+    end
+
+    expect(student.foo(:hello)).to eq('Ola')
+    expect(student.foo(:hi)).to eq('Oi')
+  end
+
+  it 'Qualquer instância de Classe' do
+    student = Student.new
+    other_student = Student.new
+
+    allow_any_instance_of(Student).to receive(:bar).and_return(true)
+
+    expect(student.bar).to be_truthy
+    expect(other_student.bar).to be_truthy
+  end
+
+  it 'Errors' do
+    student = Student.new
+    allow(student).to receive(:div).and_raise(ZeroDivisionError)
+    expect { student.div }.to raise_error(ZeroDivisionError)
+  end
 end

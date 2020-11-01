@@ -22,5 +22,10 @@ RSpec.describe Customer, type: :model do
     expect(alef.vip).to eq(false)
   end
 
+  it '#factory customer_default with transient' do
+    alef = create(:customer_default, upcased: true)
+    expect(alef.name.upcase).to eq(alef.name)
+  end
+
   it { expect { create(:customer) }.to change { Customer.all.count }.by(1) }
 end

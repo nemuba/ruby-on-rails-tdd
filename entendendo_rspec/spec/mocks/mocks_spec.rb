@@ -2,30 +2,30 @@ require 'student'
 
 describe 'Mocks' do
   it '#bar' do
-    #setup
+    # setup
     student = Student.new
-    #vaerify
+    # vaerify
     expect(student).to receive(:bar)
-    #exercise
+    # exercise
     student.bar
   end
 
   it 'args' do
     student = Student.new
-    expect(student).to  receive(:foo).with(123)
+    expect(student).to receive(:foo).with(123)
     student.foo(123)
   end
 
   it 'repetição' do
     student = Student.new
-    expect(student).to  receive(:foo).with(123).twice
+    expect(student).to receive(:foo).with(123).twice
     student.foo(123)
     student.foo(123)
   end
 
   it 'retorno' do
     student = Student.new
-    expect(student).to  receive(:foo).with(123).and_return(true)
+    expect(student).to receive(:foo).with(123).and_return(true)
     puts student.foo(123)
   end
 end

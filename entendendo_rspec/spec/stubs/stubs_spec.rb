@@ -12,7 +12,7 @@ describe 'Stub' do
     expect(finished).to be_truthy
   end
 
-  it "Argumentos Dinâmicos" do
+  it 'Argumentos Dinâmicos' do
     student = Student.new
 
     allow(student).to receive(:foo) do |arg|

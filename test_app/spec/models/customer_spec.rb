@@ -46,5 +46,10 @@ RSpec.describe Customer, type: :model do
     expect(alef.vip).to eq(false)
   end
 
+  it 'Create customer with five orders' do
+    customer = create(:customer_with_orders, qtt_orders: 5)
+    expect(customer.orders.count).to eq(5)
+  end
+
   it { expect { create(:customer) }.to change { Customer.all.count }.by(1) }
 end

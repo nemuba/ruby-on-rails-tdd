@@ -655,3 +655,112 @@
   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = ?[0m  [["customer_id", 1]]
   [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Bert Lueilwitz"], ["email", "email-1@gmail.com"], ["created_at", "2020-11-01 23:38:17.353897"], ["updated_at", "2020-11-01 23:38:17.353897"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Bennett Kassulke"], ["email", "email-2@gmail.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-01 23:38:17.405087"], ["updated_at", "2020-11-01 23:38:17.405087"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jarrod Emard"], ["email", "email-3@gmail.com"], ["created_at", "2020-11-01 23:38:17.410322"], ["updated_at", "2020-11-01 23:38:17.410322"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Elvin Champlin"], ["email", "email-4@gmail.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-01 23:38:17.415123"], ["updated_at", "2020-11-01 23:38:17.415123"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Augustus Schaden"], ["email", "email-5@gmail.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-01 23:38:17.419847"], ["updated_at", "2020-11-01 23:38:17.419847"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.5ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Prof. Geneva Casper"], ["email", "email-6@gmail.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-01 23:38:17.423999"], ["updated_at", "2020-11-01 23:38:17.423999"], ["gender", "M"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Msgr. Mel Wintheiser"], ["email", "email-7@gmail.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-01 23:38:17.428822"], ["updated_at", "2020-11-01 23:38:17.428822"], ["gender", "M"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Delaine Zemlak"], ["email", "email-8@gmail.com"], ["created_at", "2020-11-01 23:38:17.437373"], ["updated_at", "2020-11-01 23:38:17.437373"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Glennie Beier"], ["email", "email-1@gmail.com"], ["created_at", "2020-11-01 23:40:23.381781"], ["updated_at", "2020-11-01 23:40:23.381781"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Aaron Gulgowski"], ["email", "email-2@gmail.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-01 23:40:23.430825"], ["updated_at", "2020-11-01 23:40:23.430825"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Floyd Fahey"], ["email", "email-3@gmail.com"], ["created_at", "2020-11-01 23:40:23.435524"], ["updated_at", "2020-11-01 23:40:23.435524"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Luther Langworth Jr."], ["email", "email-4@gmail.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-01 23:40:23.439565"], ["updated_at", "2020-11-01 23:40:23.439565"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Prof. Ellyn McGlynn"], ["email", "email-5@gmail.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-01 23:40:23.443494"], ["updated_at", "2020-11-01 23:40:23.443494"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Pres. Brice Pollich"], ["email", "email-6@gmail.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-01 23:40:23.447572"], ["updated_at", "2020-11-01 23:40:23.447572"], ["gender", "M"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Miquel Connelly"], ["email", "email-7@gmail.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-01 23:40:23.452121"], ["updated_at", "2020-11-01 23:40:23.452121"], ["gender", "M"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Eugena Ruecker"], ["email", "email-8@gmail.com"], ["created_at", "2020-11-01 23:40:23.456609"], ["updated_at", "2020-11-01 23:40:23.456609"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 1], ["created_at", "2020-11-01 23:40:23.472916"], ["updated_at", "2020-11-01 23:40:23.472916"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOrder Create (0.4ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 1], ["created_at", "2020-11-01 23:40:23.475401"], ["updated_at", "2020-11-01 23:40:23.475401"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 1], ["created_at", "2020-11-01 23:40:23.478968"], ["updated_at", "2020-11-01 23:40:23.478968"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 1], ["created_at", "2020-11-01 23:40:23.481504"], ["updated_at", "2020-11-01 23:40:23.481504"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 5"], ["customer_id", 1], ["created_at", "2020-11-01 23:40:23.483495"], ["updated_at", "2020-11-01 23:40:23.483495"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" WHERE "orders"."customer_id" = ?[0m  [["customer_id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (2.1ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Deon Kris"], ["email", "email-9@gmail.com"], ["created_at", "2020-11-01 23:40:23.501383"], ["updated_at", "2020-11-01 23:40:23.501383"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m

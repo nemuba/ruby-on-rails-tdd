@@ -6,9 +6,14 @@ RSpec.describe Customer, type: :model do
     expect(alef.full_name).to start_with('Sr. ')
   end
 
-  it '#full_name' do
-    alef = create(:user, name: 'Alef') # ou create(:customer, name: 'Alef')
-    expect(alef.full_name).to eq('Sr. Alef')
+  it '#factory customer_vip' do
+    alef = create(:customer_vip)
+    expect(alef.vip).to eq(true)
+  end
+
+  it '#factory customer_default' do
+    alef = create(:customer_default)
+    expect(alef.vip).to eq(false)
   end
 
   it { expect { create(:customer) }.to change { Customer.all.count }.by(1) }

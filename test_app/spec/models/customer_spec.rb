@@ -27,5 +27,17 @@ RSpec.describe Customer, type: :model do
     expect(alef.name.upcase).to eq(alef.name)
   end
 
+  it '#factory customer_male_vip' do
+    alef = create(:customer_male_vip)
+    expect(alef.gender).to eq('M')
+    expect(alef.vip).to eq(true)
+  end
+
+  it '#factory customer_male_default' do
+    alef = create(:customer_male_default)
+    expect(alef.gender).to eq('M')
+    expect(alef.vip).to eq(false)
+  end
+
   it { expect { create(:customer) }.to change { Customer.all.count }.by(1) }
 end

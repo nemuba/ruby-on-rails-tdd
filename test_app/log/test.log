@@ -1128,3 +1128,453 @@
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mOrder Create (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 33], ["created_at", "2020-11-02 00:17:43.469387"], ["updated_at", "2020-11-02 00:17:43.469387"]]
   [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Paula Watsica"], ["email", "pinkie.nicolas@bechtelar.io"], ["created_at", "2020-11-02 00:40:06.149943"], ["updated_at", "2020-11-02 00:40:06.149943"], ["address", "1180 Marquerite Rapid"]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Amb. Octavio Hammes"], ["email", "scot@schroeder.biz"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:40:06.164053"], ["updated_at", "2020-11-02 00:40:06.164053"], ["address", "342 Bertram Cliffs"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Daniel Deckow I"], ["email", "stanford.koch@ruecker.co"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:40:06.172888"], ["updated_at", "2020-11-02 00:40:06.172888"], ["address", "779 Reba Gateway"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Jasper Goyette"], ["email", "reginald@kuhlman.io"], ["created_at", "2020-11-02 00:40:06.181495"], ["updated_at", "2020-11-02 00:40:06.181495"], ["gender", "M"], ["address", "220 Yost Dale"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Annamae Witting"], ["email", "kristina_hand@dubuque.name"], ["created_at", "2020-11-02 00:40:06.188960"], ["updated_at", "2020-11-02 00:40:06.188960"], ["gender", "F"], ["address", "550 Christiansen Flats"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "The Hon. Marquis Lesch"], ["email", "valeria.fay@jacobs-robel.io"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:40:06.197840"], ["updated_at", "2020-11-02 00:40:06.197840"], ["gender", "M"], ["address", "3256 Floyd Camp"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Geraldine Carroll"], ["email", "homer_cummings@waelchi.biz"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:40:06.205182"], ["updated_at", "2020-11-02 00:40:06.205182"], ["gender", "F"], ["address", "5323 Rey Mission"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Robby Farrell V"], ["email", "jettie.streich@schiller.co"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:40:06.213158"], ["updated_at", "2020-11-02 00:40:06.213158"], ["gender", "M"], ["address", "35134 Leena Valleys"]]
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Nichelle Okuneva III"], ["email", "mildred.dubuque@wuckert-senger.io"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:40:06.229663"], ["updated_at", "2020-11-02 00:40:06.229663"], ["gender", "F"], ["address", "764 Penney Spur"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Miss Ronni Walter"], ["email", "gabrielle@cruickshank.info"], ["created_at", "2020-11-02 00:40:06.237087"], ["updated_at", "2020-11-02 00:40:06.237087"], ["address", "634 Ledner Villages"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 43], ["created_at", "2020-11-02 00:40:06.251439"], ["updated_at", "2020-11-02 00:40:06.251439"]]
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 43], ["created_at", "2020-11-02 00:40:06.258150"], ["updated_at", "2020-11-02 00:40:06.258150"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 43], ["created_at", "2020-11-02 00:40:06.264241"], ["updated_at", "2020-11-02 00:40:06.264241"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Donnell Davis"], ["email", "dulce@conroy.biz"], ["created_at", "2020-11-02 00:40:06.275001"], ["updated_at", "2020-11-02 00:40:06.275001"], ["address", "814 Gleichner Stream"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 44], ["created_at", "2020-11-02 00:40:06.281063"], ["updated_at", "2020-11-02 00:40:06.281063"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Cornell Langworth"], ["email", "reinaldo@kautzer-windler.org"], ["created_at", "2020-11-02 00:41:26.832976"], ["updated_at", "2020-11-02 00:41:26.832976"], ["address", "4234 Cecil Tunnel"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Susanne Collier JD"], ["email", "lester.mann@watsica.net"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:41:26.845083"], ["updated_at", "2020-11-02 00:41:26.845083"], ["address", "95214 Dooley Spring"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Msgr. Lashon King"], ["email", "alvaro_mayer@jaskolski.co"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:41:26.852433"], ["updated_at", "2020-11-02 00:41:26.852433"], ["address", "605 Hyun Prairie"]]
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Marinda Rippin"], ["email", "tuan.strosin@mclaughlin.name"], ["created_at", "2020-11-02 00:41:26.861297"], ["updated_at", "2020-11-02 00:41:26.861297"], ["gender", "M"], ["address", "502 Gutkowski Row"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Russell Ryan"], ["email", "rocky_gottlieb@gutmann.org"], ["created_at", "2020-11-02 00:41:26.868638"], ["updated_at", "2020-11-02 00:41:26.868638"], ["gender", "F"], ["address", "1256 Lita Course"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Milo Wiegand"], ["email", "jeromy@auer.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:41:26.877153"], ["updated_at", "2020-11-02 00:41:26.877153"], ["gender", "M"], ["address", "518 Abbott Villages"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Ilona Sauer"], ["email", "alfred@deckow-ankunding.co"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:41:26.884266"], ["updated_at", "2020-11-02 00:41:26.884266"], ["gender", "F"], ["address", "696 McGlynn Mountains"]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Rolando Mueller LLD"], ["email", "luis@dietrich-hermiston.name"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:41:26.893276"], ["updated_at", "2020-11-02 00:41:26.893276"], ["gender", "M"], ["address", "834 Huels Road"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Shawn Huels"], ["email", "merle_olson@cruickshank.net"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:41:26.900608"], ["updated_at", "2020-11-02 00:41:26.900608"], ["gender", "F"], ["address", "4910 Emmerich Heights"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Dung Ankunding II"], ["email", "ida_walker@mclaughlin.org"], ["created_at", "2020-11-02 00:41:26.907724"], ["updated_at", "2020-11-02 00:41:26.907724"], ["address", "8903 Quiana Valleys"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 54], ["created_at", "2020-11-02 00:41:26.922233"], ["updated_at", "2020-11-02 00:41:26.922233"]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 54], ["created_at", "2020-11-02 00:41:26.930309"], ["updated_at", "2020-11-02 00:41:26.930309"]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 54], ["created_at", "2020-11-02 00:41:26.937348"], ["updated_at", "2020-11-02 00:41:26.937348"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Bo Wisoky"], ["email", "hyon.smith@langworth.net"], ["created_at", "2020-11-02 00:41:26.945391"], ["updated_at", "2020-11-02 00:41:26.945391"], ["address", "842 Geoffrey Drive"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 55], ["created_at", "2020-11-02 00:41:26.951519"], ["updated_at", "2020-11-02 00:41:26.951519"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Thanh Yost"], ["email", "columbus@welch-jacobs.info"], ["created_at", "2020-11-02 00:42:10.273827"], ["updated_at", "2020-11-02 00:42:10.273827"], ["address", "7386 Valentin Mews"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Delphia Roob"], ["email", "lenard.dietrich@macgyver.org"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:10.286645"], ["updated_at", "2020-11-02 00:42:10.286645"], ["address", "24483 Stamm Drives"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Brenda Rolfson"], ["email", "phuong@lesch.info"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:10.294145"], ["updated_at", "2020-11-02 00:42:10.294145"], ["address", "221 Pilar Avenue"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Msgr. Clinton Rodriguez"], ["email", "tyra@kohler.com"], ["created_at", "2020-11-02 00:42:10.301397"], ["updated_at", "2020-11-02 00:42:10.301397"], ["gender", "M"], ["address", "231 Jacobs Spring"]]
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Georgetta O'Connell Jr."], ["email", "tarsha_welch@feil-haley.info"], ["created_at", "2020-11-02 00:42:10.308948"], ["updated_at", "2020-11-02 00:42:10.308948"], ["gender", "F"], ["address", "6915 Schneider River"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Amb. Alvin Beer"], ["email", "arnold@jenkins.io"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:10.316296"], ["updated_at", "2020-11-02 00:42:10.316296"], ["gender", "M"], ["address", "1152 Debera Streets"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Taryn Hoeger"], ["email", "monserrate@marks.co"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:10.325062"], ["updated_at", "2020-11-02 00:42:10.325062"], ["gender", "F"], ["address", "2304 Spencer Locks"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Mark Rutherford"], ["email", "angelica@cruickshank.name"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:10.340754"], ["updated_at", "2020-11-02 00:42:10.340754"], ["gender", "M"], ["address", "2894 Christoper Trail"]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Mickey Cartwright"], ["email", "vince@block-macejkovic.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:10.350178"], ["updated_at", "2020-11-02 00:42:10.350178"], ["gender", "F"], ["address", "88843 James Walk"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Rodney Parisian"], ["email", "torie@schultz-renner.biz"], ["created_at", "2020-11-02 00:42:10.357856"], ["updated_at", "2020-11-02 00:42:10.357856"], ["address", "9564 Edward Crest"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 65], ["created_at", "2020-11-02 00:42:10.372336"], ["updated_at", "2020-11-02 00:42:10.372336"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 65], ["created_at", "2020-11-02 00:42:10.379481"], ["updated_at", "2020-11-02 00:42:10.379481"]]
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 65], ["created_at", "2020-11-02 00:42:10.386228"], ["updated_at", "2020-11-02 00:42:10.386228"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Mohammad Jakubowski"], ["email", "paulette@lehner.co"], ["created_at", "2020-11-02 00:42:10.393675"], ["updated_at", "2020-11-02 00:42:10.393675"], ["address", "56261 Pacocha River"]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 66], ["created_at", "2020-11-02 00:42:10.401375"], ["updated_at", "2020-11-02 00:42:10.401375"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Kimiko Greenfelder"], ["email", "darrin@lesch.com"], ["created_at", "2020-11-02 00:42:33.500250"], ["updated_at", "2020-11-02 00:42:33.500250"], ["address", "965 Elbert Trail"]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Kathe Keeling"], ["email", "bobby@johnston.name"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:33.511879"], ["updated_at", "2020-11-02 00:42:33.511879"], ["address", "5062 Friesen Ways"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Maybell Gibson"], ["email", "zachary_runte@abbott-grimes.io"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:33.520513"], ["updated_at", "2020-11-02 00:42:33.520513"], ["address", "1076 Gertrudis Locks"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Lynn Muller"], ["email", "nu@dach.net"], ["created_at", "2020-11-02 00:42:33.527445"], ["updated_at", "2020-11-02 00:42:33.527445"], ["gender", "M"], ["address", "780 Julius Trafficway"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Bess Walter"], ["email", "ramon.bechtelar@bogan.info"], ["created_at", "2020-11-02 00:42:33.534653"], ["updated_at", "2020-11-02 00:42:33.534653"], ["gender", "F"], ["address", "454 Ervin Court"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Ronnie Rosenbaum"], ["email", "birdie.rutherford@howell.biz"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:33.541562"], ["updated_at", "2020-11-02 00:42:33.541562"], ["gender", "M"], ["address", "305 Rudy Via"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Cinda Kozey IV"], ["email", "thanh.wiza@turcotte.co"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:33.548353"], ["updated_at", "2020-11-02 00:42:33.548353"], ["gender", "F"], ["address", "4215 Kuhn Fork"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Jose Runolfsson"], ["email", "lucas@kris.net"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:33.556832"], ["updated_at", "2020-11-02 00:42:33.556832"], ["gender", "M"], ["address", "701 Gutkowski Mountain"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Miss Rashad Schultz"], ["email", "shon.turcotte@lockman.biz"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:33.564881"], ["updated_at", "2020-11-02 00:42:33.564881"], ["gender", "F"], ["address", "4156 Harry Plaza"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Tommie Runolfsdottir"], ["email", "harold@morar.co"], ["created_at", "2020-11-02 00:42:33.571822"], ["updated_at", "2020-11-02 00:42:33.571822"], ["address", "4593 Kareem Ways"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 76], ["created_at", "2020-11-02 00:42:33.586182"], ["updated_at", "2020-11-02 00:42:33.586182"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 76], ["created_at", "2020-11-02 00:42:33.592094"], ["updated_at", "2020-11-02 00:42:33.592094"]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 76], ["created_at", "2020-11-02 00:42:33.599138"], ["updated_at", "2020-11-02 00:42:33.599138"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Jesusa Miller"], ["email", "glenn.rolfson@konopelski.io"], ["created_at", "2020-11-02 00:42:33.607205"], ["updated_at", "2020-11-02 00:42:33.607205"], ["address", "2662 Walker Hills"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 77], ["created_at", "2020-11-02 00:42:33.613652"], ["updated_at", "2020-11-02 00:42:33.613652"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Franklin Carter"], ["email", "billie@glover.co"], ["created_at", "2020-11-02 00:42:51.215022"], ["updated_at", "2020-11-02 00:42:51.215022"], ["address", "8814 Elliott Roads"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "The Hon. Toby Grant"], ["email", "victor_walker@tremblay.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:51.227851"], ["updated_at", "2020-11-02 00:42:51.227851"], ["address", "7392 MacGyver Squares"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Billye Thompson Ret."], ["email", "mckenzie@towne-gutmann.net"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:51.236600"], ["updated_at", "2020-11-02 00:42:51.236600"], ["address", "484 Mosciski Estates"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Larisa Raynor"], ["email", "bessie.johns@wolf.net"], ["created_at", "2020-11-02 00:42:51.243766"], ["updated_at", "2020-11-02 00:42:51.243766"], ["gender", "M"], ["address", "2782 Cherly Centers"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Tomas Veum"], ["email", "gertrude@pouros.io"], ["created_at", "2020-11-02 00:42:51.251190"], ["updated_at", "2020-11-02 00:42:51.251190"], ["gender", "F"], ["address", "21956 Conn Manor"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Amiee Swaniawski"], ["email", "bong.nicolas@weber.biz"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:51.265915"], ["updated_at", "2020-11-02 00:42:51.265915"], ["gender", "M"], ["address", "3602 Langworth Drive"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Ethyl Rutherford"], ["email", "cedric@stoltenberg.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:42:51.272766"], ["updated_at", "2020-11-02 00:42:51.272766"], ["gender", "F"], ["address", "38495 Schamberger Junction"]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Michelle Crooks II"], ["email", "darrin@kling.name"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:51.280877"], ["updated_at", "2020-11-02 00:42:51.280877"], ["gender", "M"], ["address", "7086 Spinka Underpass"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Lucas Dickens"], ["email", "corine@tromp.name"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:42:51.287962"], ["updated_at", "2020-11-02 00:42:51.287962"], ["gender", "F"], ["address", "72088 Shenna Crescent"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Brett McKenzie MD"], ["email", "rodger_rolfson@harber.biz"], ["created_at", "2020-11-02 00:42:51.297612"], ["updated_at", "2020-11-02 00:42:51.297612"], ["address", "25576 Satterfield Plain"]]
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 87], ["created_at", "2020-11-02 00:42:51.313760"], ["updated_at", "2020-11-02 00:42:51.313760"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 87], ["created_at", "2020-11-02 00:42:51.319902"], ["updated_at", "2020-11-02 00:42:51.319902"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 87], ["created_at", "2020-11-02 00:42:51.325746"], ["updated_at", "2020-11-02 00:42:51.325746"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Delphine Ebert"], ["email", "avery.krajcik@hand-harvey.io"], ["created_at", "2020-11-02 00:42:51.334763"], ["updated_at", "2020-11-02 00:42:51.334763"], ["address", "9448 Bauch Motorway"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 88], ["created_at", "2020-11-02 00:42:51.341230"], ["updated_at", "2020-11-02 00:42:51.341230"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Mr. Jamila Roberts"], ["email", "lakia@borer.io"], ["created_at", "2020-11-02 00:43:30.419257"], ["updated_at", "2020-11-02 00:43:30.419257"], ["address", "7734 Moen Plains"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Kraig Pouros"], ["email", "lanny.parker@fadel.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:43:30.430590"], ["updated_at", "2020-11-02 00:43:30.430590"], ["address", "815 Leland Freeway"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Msgr. Russel Jerde"], ["email", "foster@barrows.biz"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:43:30.437504"], ["updated_at", "2020-11-02 00:43:30.437504"], ["address", "64265 Ritchie Stream"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Dacia Graham"], ["email", "charles@zemlak.io"], ["created_at", "2020-11-02 00:43:30.444764"], ["updated_at", "2020-11-02 00:43:30.444764"], ["gender", "M"], ["address", "6713 Charita Turnpike"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Arnulfo Cronin"], ["email", "korey_conn@zboncak-keeling.name"], ["created_at", "2020-11-02 00:43:30.451738"], ["updated_at", "2020-11-02 00:43:30.451738"], ["gender", "F"], ["address", "752 Glover Point"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Patti Von"], ["email", "odell@fay.net"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:43:30.458566"], ["updated_at", "2020-11-02 00:43:30.458566"], ["gender", "M"], ["address", "404 O'Conner Crossroad"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Janean Nolan"], ["email", "maximo@ernser.org"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:43:30.465383"], ["updated_at", "2020-11-02 00:43:30.465383"], ["gender", "F"], ["address", "87334 Elliot Haven"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Mauricio Effertz Esq."], ["email", "beau@lindgren-wintheiser.co"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:43:30.472217"], ["updated_at", "2020-11-02 00:43:30.472217"], ["gender", "M"], ["address", "7052 Edison Neck"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Charley Cormier"], ["email", "kristen.quigley@kassulke.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:43:30.480693"], ["updated_at", "2020-11-02 00:43:30.480693"], ["gender", "F"], ["address", "3025 Roger Freeway"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Loretta Dickens"], ["email", "shelby@davis-ruecker.co"], ["created_at", "2020-11-02 00:43:30.488153"], ["updated_at", "2020-11-02 00:43:30.488153"], ["address", "5372 Mohr Station"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 98], ["created_at", "2020-11-02 00:43:30.503755"], ["updated_at", "2020-11-02 00:43:30.503755"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 98], ["created_at", "2020-11-02 00:43:30.509694"], ["updated_at", "2020-11-02 00:43:30.509694"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 98], ["created_at", "2020-11-02 00:43:30.515890"], ["updated_at", "2020-11-02 00:43:30.515890"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Rev. Deon Sporer"], ["email", "margie.stroman@marvin.name"], ["created_at", "2020-11-02 00:43:30.522896"], ["updated_at", "2020-11-02 00:43:30.522896"], ["address", "62955 Nathan Keys"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 99], ["created_at", "2020-11-02 00:43:30.529704"], ["updated_at", "2020-11-02 00:43:30.529704"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Galina Boyle DVM"], ["email", "reginald@gottlieb-quigley.org"], ["created_at", "2020-11-02 00:43:52.576442"], ["updated_at", "2020-11-02 00:43:52.576442"], ["address", "681 Noe Mountains"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Omer Corwin"], ["email", "karima.breitenberg@hagenes.org"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:43:52.588597"], ["updated_at", "2020-11-02 00:43:52.588597"], ["address", "81369 Susanna Throughway"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Ismael Monahan"], ["email", "scot@oreilly-vandervort.org"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:43:52.597078"], ["updated_at", "2020-11-02 00:43:52.597078"], ["address", "423 Bergnaum Brooks"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Erlene Boyer"], ["email", "millie_dickinson@dubuque-ortiz.co"], ["created_at", "2020-11-02 00:43:52.604479"], ["updated_at", "2020-11-02 00:43:52.604479"], ["gender", "M"], ["address", "648 Pasquale Viaduct"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Victor D'Amore"], ["email", "maxwell.braun@klocko.com"], ["created_at", "2020-11-02 00:43:52.620393"], ["updated_at", "2020-11-02 00:43:52.620393"], ["gender", "F"], ["address", "92852 Shanda Path"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Enrique Schmidt"], ["email", "lizbeth@nitzsche.info"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:43:52.629213"], ["updated_at", "2020-11-02 00:43:52.629213"], ["gender", "M"], ["address", "85905 Sanford Freeway"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Dan Huels I"], ["email", "hyman_effertz@kiehn-borer.info"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:43:52.637026"], ["updated_at", "2020-11-02 00:43:52.637026"], ["gender", "F"], ["address", "67967 Bergnaum Green"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Jeramy Rogahn"], ["email", "avis@crooks.co"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:43:52.644553"], ["updated_at", "2020-11-02 00:43:52.644553"], ["gender", "M"], ["address", "6595 Strosin Mews"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Edgardo Beahan"], ["email", "anh@hane-flatley.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:43:52.653022"], ["updated_at", "2020-11-02 00:43:52.653022"], ["gender", "F"], ["address", "4591 Janyce Tunnel"]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Darwin Stokes"], ["email", "bethel@weissnat-skiles.org"], ["created_at", "2020-11-02 00:43:52.663264"], ["updated_at", "2020-11-02 00:43:52.663264"], ["address", "967 Daugherty Lake"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 109], ["created_at", "2020-11-02 00:43:52.677846"], ["updated_at", "2020-11-02 00:43:52.677846"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 109], ["created_at", "2020-11-02 00:43:52.684307"], ["updated_at", "2020-11-02 00:43:52.684307"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 109], ["created_at", "2020-11-02 00:43:52.690405"], ["updated_at", "2020-11-02 00:43:52.690405"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Mrs. Monserrate Cronin"], ["email", "contessa.hauck@schulist.name"], ["created_at", "2020-11-02 00:43:52.698369"], ["updated_at", "2020-11-02 00:43:52.698369"], ["address", "290 Sidney Ville"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 110], ["created_at", "2020-11-02 00:43:52.704265"], ["updated_at", "2020-11-02 00:43:52.704265"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Billy Kohler"], ["email", "rebbeca.hand@gerhold.info"], ["created_at", "2020-11-02 00:44:08.967725"], ["updated_at", "2020-11-02 00:44:08.967725"], ["address", "78167 Brown Hollow"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Venice Von DDS"], ["email", "dwayne.trantow@hills.net"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:08.979800"], ["updated_at", "2020-11-02 00:44:08.979800"], ["address", "93117 Quinton Course"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Pres. Basil Stark"], ["email", "russel.jacobson@padberg.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:08.987745"], ["updated_at", "2020-11-02 00:44:08.987745"], ["address", "534 Hilario Light"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Levi Hahn"], ["email", "ignacio@oberbrunner.io"], ["created_at", "2020-11-02 00:44:08.995101"], ["updated_at", "2020-11-02 00:44:08.995101"], ["gender", "M"], ["address", "440 Lydia Forks"]]
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Carlos O'Conner"], ["email", "major_graham@schmitt.net"], ["created_at", "2020-11-02 00:44:09.002925"], ["updated_at", "2020-11-02 00:44:09.002925"], ["gender", "F"], ["address", "315 Kaleigh Rapid"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Shannan Schultz"], ["email", "rafaela_quitzon@willms.io"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:09.010013"], ["updated_at", "2020-11-02 00:44:09.010013"], ["gender", "M"], ["address", "2808 Emmerich Ridges"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Fr. Phillis Effertz"], ["email", "wally@macgyver.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:09.017144"], ["updated_at", "2020-11-02 00:44:09.017144"], ["gender", "F"], ["address", "28152 Gerhold Heights"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Kory Gislason"], ["email", "minnie_satterfield@oconner.org"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:09.026351"], ["updated_at", "2020-11-02 00:44:09.026351"], ["gender", "M"], ["address", "62288 Thanh Haven"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Prof. Ernest Kiehn"], ["email", "bennie.mayert@jast-johns.net"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:09.033378"], ["updated_at", "2020-11-02 00:44:09.033378"], ["gender", "F"], ["address", "4671 Mraz Plaza"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Mauro Considine"], ["email", "soo@friesen.org"], ["created_at", "2020-11-02 00:44:09.040704"], ["updated_at", "2020-11-02 00:44:09.040704"], ["address", "561 Tromp Field"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 120], ["created_at", "2020-11-02 00:44:09.055985"], ["updated_at", "2020-11-02 00:44:09.055985"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 120], ["created_at", "2020-11-02 00:44:09.063655"], ["updated_at", "2020-11-02 00:44:09.063655"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 120], ["created_at", "2020-11-02 00:44:09.069541"], ["updated_at", "2020-11-02 00:44:09.069541"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Erin Ward"], ["email", "tamie_schowalter@robel.io"], ["created_at", "2020-11-02 00:44:09.076635"], ["updated_at", "2020-11-02 00:44:09.076635"], ["address", "111 Donn Canyon"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 121], ["created_at", "2020-11-02 00:44:09.083709"], ["updated_at", "2020-11-02 00:44:09.083709"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Olene Von IV"], ["email", "otis_osinski@terry-greenholt.biz"], ["created_at", "2020-11-02 00:44:30.125898"], ["updated_at", "2020-11-02 00:44:30.125898"], ["address", "955 Rosenbaum Mountain"]]
+  [1m[35m (285.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Lovella Feest"], ["email", "alaine@reilly.co"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:30.418179"], ["updated_at", "2020-11-02 00:44:30.418179"], ["address", "188 Jutta Radial"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (7.9ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Augustine Trantow"], ["email", "elliott_torp@schneider-stanton.net"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:30.426188"], ["updated_at", "2020-11-02 00:44:30.426188"], ["address", "79751 Friesen Square"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Tova Kovacek Jr."], ["email", "lynetta_rath@jerde.net"], ["created_at", "2020-11-02 00:44:30.441263"], ["updated_at", "2020-11-02 00:44:30.441263"], ["gender", "M"], ["address", "595 Nitzsche Tunnel"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Darleen Casper V"], ["email", "birgit_ohara@durgan-osinski.io"], ["created_at", "2020-11-02 00:44:30.448692"], ["updated_at", "2020-11-02 00:44:30.448692"], ["gender", "F"], ["address", "8740 Cummerata Village"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Farrah Cruickshank"], ["email", "olin_witting@stiedemann-kiehn.com"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:30.456168"], ["updated_at", "2020-11-02 00:44:30.456168"], ["gender", "M"], ["address", "205 Karoline Bridge"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Amos Hagenes"], ["email", "may@kertzmann-romaguera.org"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:30.464817"], ["updated_at", "2020-11-02 00:44:30.464817"], ["gender", "F"], ["address", "56768 Ryan Mission"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Usha Barrows"], ["email", "larraine@hickle.name"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:30.471745"], ["updated_at", "2020-11-02 00:44:30.471745"], ["gender", "M"], ["address", "819 Donnelly Pine"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Arlene Koss"], ["email", "chantal.feeney@gislason.info"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:30.478863"], ["updated_at", "2020-11-02 00:44:30.478863"], ["gender", "F"], ["address", "5017 Edward Wells"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Gerard Osinski"], ["email", "thao_green@cole.name"], ["created_at", "2020-11-02 00:44:30.486254"], ["updated_at", "2020-11-02 00:44:30.486254"], ["address", "54473 Von Forks"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 131], ["created_at", "2020-11-02 00:44:30.501342"], ["updated_at", "2020-11-02 00:44:30.501342"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 131], ["created_at", "2020-11-02 00:44:30.510173"], ["updated_at", "2020-11-02 00:44:30.510173"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 131], ["created_at", "2020-11-02 00:44:30.516897"], ["updated_at", "2020-11-02 00:44:30.516897"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Wei Mann DC"], ["email", "houston.hessel@kling.info"], ["created_at", "2020-11-02 00:44:30.525740"], ["updated_at", "2020-11-02 00:44:30.525740"], ["address", "48562 Langworth Rapids"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.4ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 132], ["created_at", "2020-11-02 00:44:30.531313"], ["updated_at", "2020-11-02 00:44:30.531313"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Mrs. Shirl Breitenberg"], ["email", "denisse@treutel.name"], ["created_at", "2020-11-02 00:44:37.556360"], ["updated_at", "2020-11-02 00:44:37.556360"], ["address", "85338 Marquitta Views"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Felton Padberg"], ["email", "owen@heller-harber.info"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:37.568334"], ["updated_at", "2020-11-02 00:44:37.568334"], ["address", "47924 Murphy Lodge"]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Shyla Rogahn"], ["email", "krystle@hessel.net"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:37.576732"], ["updated_at", "2020-11-02 00:44:37.576732"], ["address", "4781 Stark Radial"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Clint Tillman"], ["email", "giuseppe_harvey@goodwin-jacobson.com"], ["created_at", "2020-11-02 00:44:37.584789"], ["updated_at", "2020-11-02 00:44:37.584789"], ["gender", "M"], ["address", "53079 Kunde Ford"]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Wilber Toy"], ["email", "beatris@mills.org"], ["created_at", "2020-11-02 00:44:37.593022"], ["updated_at", "2020-11-02 00:44:37.593022"], ["gender", "F"], ["address", "271 Boyle Park"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Mikaela Renner"], ["email", "lincoln_kohler@ankunding.org"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:37.600165"], ["updated_at", "2020-11-02 00:44:37.600165"], ["gender", "M"], ["address", "5962 Lillia Terrace"]]
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Truman Koch"], ["email", "charisse.klocko@grimes.name"], ["vip", 1], ["days_to_pay", 30], ["created_at", "2020-11-02 00:44:37.610476"], ["updated_at", "2020-11-02 00:44:37.610476"], ["gender", "F"], ["address", "75032 Shelton Stream"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Chuck Dickens DVM"], ["email", "carrol_murphy@walker.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:37.617521"], ["updated_at", "2020-11-02 00:44:37.617521"], ["gender", "M"], ["address", "707 Raynor Isle"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "vip", "days_to_pay", "created_at", "updated_at", "gender", "address") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Mrs. Ching Feest"], ["email", "joana.price@dickinson.com"], ["vip", 0], ["days_to_pay", 15], ["created_at", "2020-11-02 00:44:37.625060"], ["updated_at", "2020-11-02 00:44:37.625060"], ["gender", "F"], ["address", "375 Felton Summit"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Reyes Kemmer"], ["email", "lashaun@rutherford.io"], ["created_at", "2020-11-02 00:44:37.631938"], ["updated_at", "2020-11-02 00:44:37.631938"], ["address", "74085 Angel Lights"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 1"], ["customer_id", 142], ["created_at", "2020-11-02 00:44:37.646101"], ["updated_at", "2020-11-02 00:44:37.646101"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 2"], ["customer_id", 142], ["created_at", "2020-11-02 00:44:37.652054"], ["updated_at", "2020-11-02 00:44:37.652054"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 3"], ["customer_id", 142], ["created_at", "2020-11-02 00:44:37.659479"], ["updated_at", "2020-11-02 00:44:37.659479"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "email", "created_at", "updated_at", "address") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Silas Connelly DC"], ["email", "shayla@toy.info"], ["created_at", "2020-11-02 00:44:37.668251"], ["updated_at", "2020-11-02 00:44:37.668251"], ["address", "93317 Greenfelder Pass"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("description", "customer_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Pedido número - 4"], ["customer_id", 143], ["created_at", "2020-11-02 00:44:37.676364"], ["updated_at", "2020-11-02 00:44:37.676364"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m

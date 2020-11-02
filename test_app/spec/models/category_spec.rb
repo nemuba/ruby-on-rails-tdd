@@ -9,6 +9,6 @@ RSpec.describe Category, type: :model do
   it 'is invalid without description' do
     category = build(:category, description: nil)
     category.valid?
-    expect(category.errors.full_messages.first).to eq("Description can't be blank")
+    expect(category.errors.full_messages).to include("Description can't be blank")
   end
 end

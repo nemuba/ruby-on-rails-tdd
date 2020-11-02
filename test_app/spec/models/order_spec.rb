@@ -13,4 +13,12 @@ RSpec.describe Order, type: :model do
     expect(orders.count).to eq(3)
     expect(customer_default.orders.count).to eq(3)
   end
+
+  it 'travel_to' do
+    travel_to Time.zone.local(2004, 11, 24, 01, 02, 20) do
+      @order = create(:order)
+    end
+    puts @order.created_at
+    expect(@order.created_at).to be < Time.now
+  end
 end

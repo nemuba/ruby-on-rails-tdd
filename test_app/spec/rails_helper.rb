@@ -44,6 +44,9 @@ RSpec.configure do |config|
   config.include ActiveSupport::Testing::TimeHelpers
   # Include FactoryBot
   config.include FactoryBot::Syntax::Methods
+  # Devise
+  config.include Devise::Test::ControllerHelpers, type: :controller
+  config.include Warden::Test::Helpers, type: :request
 
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"

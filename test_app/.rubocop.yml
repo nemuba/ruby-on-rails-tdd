@@ -19,3 +19,6 @@ Layout/BlockEndNewline:
 
 Layout/TrailingEmptyLines:
   Enabled: false
+
+Style/Documentation:
+  Enable: false

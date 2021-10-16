@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 class Contador
   @qtd = 0
 
-  def self.qtd
-    @qtd
+  class << self
+    attr_reader :qtd
   end
 
   def self.incrementar
